@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Authentification</title>
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="./logo.png">
+</head>
+<header id="leheader">
+    <h1>BANQUE</h1>
+    <p>DU</p>
+    <h1>MAL</h1>
+</header>
+
+<body>
+    <div id="divbody">
+        <h1 id="auth1">Accès au tableau de bord :</h1>
+        <label for="pseudo">Nom d'utilisateur : </label>
+        <p id="pseudo">M4L3F1SM3</p>
+        <label for="mdp">Mot de passe :</label>
+        <input id="mdp" type="password" name="mdp">
+        <button onclick="authenticate()">Se connecter</button>
+    </div>
+    <p id="message"><span id="message-text"></span></p>
+
+</body>
+<script src="./script.js"></script>
