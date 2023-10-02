@@ -58,6 +58,7 @@ label {
 
 #pseudo {
     margin-bottom: 3vh;
+    width: 10vw;
 }
 
 #leheader {
@@ -67,6 +68,8 @@ label {
 
 #mdp {
     margin-bottom: 5vh;
+    height: 3vh;
+    width: 10vw;
 }
 
 #auth1 {
@@ -82,9 +85,9 @@ label {
 button {
     background-color: #970A21;
     border: solid #D38E33 1px;
-    height: 2.3vh;
-    width: 8vw;
-    font-size: 1.5vh;
+    height: 4vh;
+    width: 10vw;
+    font-size: 2vh;
 }
 
 #message {
@@ -200,7 +203,7 @@ button {
 }
 
 #analyse>div>p {
-    font-size: 1vw;
+    font-size: 1.2vw;
     width: 70%;
 }
 
@@ -267,12 +270,12 @@ button {
 }
 
 #bienvenueVec>div>p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 70%;
 }
 
 #fatalerror>div>p {
-    font-size: 1vw;
+    font-size: 1.5vw;
     width: 70%;
 }
 
